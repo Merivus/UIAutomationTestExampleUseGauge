@@ -1,0 +1,85 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 6151milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 6151"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.scrollToElement' and 'tests.ProductTest.scrollToElement'"}
+{"logLevel":"debug","message":"Found Arama sonuçları sayfasından 2. sayfa açılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.goToUrl' and 'tests.HomeTest.goToUrl'"}
+{"logLevel":"debug","message":"Found {} sitesi açılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.ClickLoginButton' and 'tests.LoginTest.ClickLoginButton'"}
+{"logLevel":"debug","message":"Found Giriş Yap butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.SetSearchComputer' and 'tests.ProductTest.SetSearchComputer'"}
+{"logLevel":"debug","message":"Found Arama alanına {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.ProductQuantity' and 'tests.ProductTest.ProductQuantity'"}
+{"logLevel":"debug","message":"Found Adet arttırılarak ürün adedinin 2 olduğu doğrulanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.CloseWindow' and 'tests.ProductTest.CloseWindow'"}
+{"logLevel":"debug","message":"Found Pencere kapatılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BasketTest.GoToBasketUrl' and 'tests.BasketTest.GoToBasketUrl'"}
+{"logLevel":"debug","message":"Found Sepetim sayfasına geri dönülür in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.SetUserName' and 'tests.LoginTest.SetUserName'"}
+{"logLevel":"debug","message":"Found Kullanıcı Adı alanına {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BasketTest.AddItemToBasket' and 'tests.BasketTest.AddItemToBasket'"}
+{"logLevel":"debug","message":"Found Ürün sepete eklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.SelectRandomProduct' and 'tests.ProductTest.SelectRandomProduct'"}
+{"logLevel":"debug","message":"Found Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.CheckProduct' and 'tests.ProductTest.CheckProduct'"}
+{"logLevel":"debug","message":"Found Ürünün listelenen fiyatı ile sepetteki fiyatı kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.DeleteProduct' and 'tests.ProductTest.DeleteProduct'"}
+{"logLevel":"debug","message":"Found Ürün sepetten silinerek sepetin boş olduğu kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.GoToLoginUrl' and 'tests.LoginTest.GoToLoginUrl'"}
+{"logLevel":"debug","message":"Found {} login sayfasına gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.CheckSecondPage' and 'tests.ProductTest.CheckSecondPage'"}
+{"logLevel":"debug","message":"Found 2. sayfanın açıldığı kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.ClickFindButton' and 'tests.ProductTest.ClickFindButton'"}
+{"logLevel":"debug","message":"Found Bul butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.controlTheLink' and 'tests.HomeTest.controlTheLink'"}
+{"logLevel":"debug","message":"Found Ana sayfanın açıldığı kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.SetPassword' and 'tests.LoginTest.SetPassword'"}
+{"logLevel":"debug","message":"Found Şifre alanına {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.CheckLogin' and 'tests.LoginTest.CheckLogin'"}
+{"logLevel":"debug","message":"Found Login işlemi kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tArama sonuçları sayfasından 2. sayfa açılır : public void scrollToElement() throws Exception"}
+{"logLevel":"debug","message":"\tSonuca göre sergilenen ürünlerden rastgele bir ürün seçilir : public void SelectRandomProduct()"}
+{"logLevel":"debug","message":"\tAna sayfanın açıldığı kontrol edilir : public void controlTheLink()"}
+{"logLevel":"debug","message":"\tSepetim sayfasına geri dönülür : public void GoToBasketUrl()"}
+{"logLevel":"debug","message":"\tBul butonuna tıklanır : public void ClickFindButton()"}
+{"logLevel":"debug","message":"\t{} sitesi açılır : public void goToUrl(String key) throws Exception"}
+{"logLevel":"debug","message":"\tGiriş Yap butonuna tıklanır : public void ClickLoginButton()"}
+{"logLevel":"debug","message":"\tPencere kapatılır : public void CloseWindow()"}
+{"logLevel":"debug","message":"\t2. sayfanın açıldığı kontrol edilir : public void CheckSecondPage()"}
+{"logLevel":"debug","message":"\tAdet arttırılarak ürün adedinin 2 olduğu doğrulanır : public void ProductQuantity() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin işlemi kontrol edilir : public void CheckLogin()"}
+{"logLevel":"debug","message":"\tÜrünün listelenen fiyatı ile sepetteki fiyatı kontrol edilir : public void CheckProduct()"}
+{"logLevel":"debug","message":"\tŞifre alanına {} girilir : public void SetPassword(String password)"}
+{"logLevel":"debug","message":"\tÜrün sepete eklenir : public void AddItemToBasket()"}
+{"logLevel":"debug","message":"\tArama alanına {} girilir : public void SetSearchComputer(String computer)"}
+{"logLevel":"debug","message":"\tÜrün sepetten silinerek sepetin boş olduğu kontrol edilir : public void DeleteProduct()"}
+{"logLevel":"debug","message":"\tKullanıcı Adı alanına {} girilir : public void SetUserName(String userName)"}
+{"logLevel":"debug","message":"\t{} login sayfasına gidilir : public void GoToLoginUrl(String url)"}
+{"logLevel":"debug","message":"started gRPC server on port 61824"}
+{"logLevel":"info","message":"Listening on port:61824"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 32275
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nis 18, 2021 5:34:09 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} sitesi açılır' using 'class tests.HomeTest.goToUrl"}
+{"logLevel":"debug","message":"Executing 'Ana sayfanın açıldığı kontrol edilir' using 'class tests.HomeTest.controlTheLink"}
+GittiGidiyor sayfası açıldı.
+-----------------------------
+{"logLevel":"debug","message":"Executing '{} sitesi açılır' using 'class tests.HomeTest.goToUrl"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı Adı alanına {} girilir' using 'class tests.LoginTest.SetUserName"}
+{"logLevel":"debug","message":"Executing 'Şifre alanına {} girilir' using 'class tests.LoginTest.SetPassword"}
+{"logLevel":"debug","message":"Executing 'Giriş Yap butonuna tıklanır' using 'class tests.LoginTest.ClickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Login işlemi kontrol edilir' using 'class tests.LoginTest.CheckLogin"}
+GittiGidiyor sitesine login işlemi gerçekleşmiştir.
+-----------------------------
+{"logLevel":"debug","message":"Executing 'Arama alanına {} girilir' using 'class tests.ProductTest.SetSearchComputer"}
